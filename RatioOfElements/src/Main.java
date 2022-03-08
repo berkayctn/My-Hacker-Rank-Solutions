@@ -1,12 +1,11 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        List<Integer> arr = new ArrayList();
+        List<Integer> arr = new ArrayList<Integer>();
         arr.add(-4);
         arr.add(3);
         arr.add(-9);
@@ -21,11 +20,8 @@ public class Main {
 
     public static void plusMinus(List<Integer> arr) {
 
-        int zero = 0;
-        int positive = 0;
-        int negative = 0;
-
-
+        int zero = 0, positive = 0, negative = 0;
+        
         for (int i = 0; i < arr.size(); i++) {
 
             if (arr.get(i) < 0) {
