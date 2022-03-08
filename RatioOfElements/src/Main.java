@@ -38,7 +38,7 @@ public class Main {
         System.out.printf("proportion of negative  values: %.6f %n", ((double) negative / arr.size()));
         System.out.printf("proportion of zeros : %.6f %n", ((double) zero / arr.size()));
 
-        System.out.println();
+    
 
 
     }
