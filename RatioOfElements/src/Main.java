@@ -19,7 +19,7 @@ public class Main {
     }
     
     
-    //Find the ratio of positive numbers,negative numbers and zero for given array.
+    //Find the ratio of positive numbers,negative numbers and zeros for given array.
     
 
     public static void plusMinus(List<Integer> arr) {
