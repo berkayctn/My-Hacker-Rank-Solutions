@@ -9,9 +9,9 @@ public class Main {
         BigInteger n = new BigInteger(scanner.nextLine());
 
        if(n.isProbablePrime(100)){
-           System.out.println(n + " is a prime number");
+           System.out.println("prime");
         }else {
-           System.out.println(n + " is not a prime number");
+           System.out.println("not prime");
        }
 
 
