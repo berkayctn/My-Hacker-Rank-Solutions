@@ -6,7 +6,7 @@ public class Main {
 
         char [] arr = new char[25];
 
-        for( int i = 0 ; i < arr.length; i++){
+        for(int i = 0 ; i < arr.length; i++){
             double randomNumber = Math.floor(Math.random() * (90 - 65 + 1)) + 65;
             char convertedChar = (char)randomNumber;
             arr[i] = convertedChar;
