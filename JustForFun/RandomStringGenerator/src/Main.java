@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         //This code piece generates a 50 digits random string using ASCII codes
+        //Each time, the string is generated completely randomly
 
          char[] arr = new char[50];
 
