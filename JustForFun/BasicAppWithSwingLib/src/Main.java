@@ -7,7 +7,7 @@ public class Main {
         JOptionPane.showMessageDialog(null, "Sum of your numbers : " + sumEquation());
     }
 
-    public static double sumEquation() {
+    public static int sumEquation() {
         int sumOfNumbers = 0;
 
         String number = JOptionPane.showInputDialog(null, "How many numbers do you want to sum");
