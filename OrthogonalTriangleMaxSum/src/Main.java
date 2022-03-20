@@ -4,14 +4,18 @@ import java.util.Scanner;
 
 public class Main {
 
-    //Initialize Array with the number of lines the Input has
-    private final static int[][] pyramid = new int[4][4];
+    //Initialize Array with the number of rows the Input has
+    private final static int[][] pyramid = new int[15][15];
 
     public static void main(String[] args) {
 
         //Fill the array with your Input
         //You need to write your Input path
-        readNums("C:\\Users\\berkay\\IdeaProjects\\OrthogonalTriangleMaxSum\\src\\test1.txt");
+        readNums("C:\\Users\\berkay\\IdeaProjects\\HackerRank\\OrthogonalTriangleMaxSum\\src\\test2.txt");
+
+        //Print original array (Including Prime Numbers)
+        System.out.println("\nThe original array : ");
+        printArray();
 
         //Set all primes to 0
         primesToZero();
@@ -19,10 +23,10 @@ public class Main {
         //Find max sum and store max in first position
         findMaxSum();
 
-        //Print result
-        System.out.println("\nArray after removing prime numbers : ");
+        //print result
+        System.out.println("\nArray after max sum calculations: ");
         printArray();
-        System.out.println("\n-------------- The max sum is " + pyramid[0][0] + " --------------");
+        System.out.println("\n-------------- The max sum is = " + pyramid[0][0] + " --------------");
     }
 
 
@@ -31,7 +35,6 @@ public class Main {
         try {
             InputStream inStream = new FileInputStream(filePath);
             Scanner scanner = new Scanner(inStream);
-
 
             while (scanner.hasNextLine()) {
                 String s = scanner.nextLine();
