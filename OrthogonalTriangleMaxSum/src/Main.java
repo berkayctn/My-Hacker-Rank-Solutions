@@ -11,7 +11,7 @@ public class Main {
 
         //Fill the array with your Input
         //You need to write your Input path
-        readNums("C:\\Users\\berkay\\IdeaProjects\\HackerRank\\OrthogonalTriangleMaxSum\\src\\test1.txt");
+        readNums("C:\\Users\\berkay\\IdeaProjects\\OrthogonalTriangleMaxSum\\src\\test1.txt");
 
         //Set all primes to 0
         primesToZero();
