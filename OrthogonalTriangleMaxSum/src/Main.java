@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    //Initialize Array with the number of rows the Input has
+    //Initialize Array with the number of lines the Input has
     private final static int[][] pyramid = new int[4][4];
 
     public static void main(String[] args) {
