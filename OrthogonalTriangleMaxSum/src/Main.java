@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Main {
 
     //Initialize Array with the number of rows the Input has
-    private final static int[][] pyramid = new int[15][15];
+    private final static int[][] pyramid = new int[4][4];
 
     public static void main(String[] args) {
 
         //Fill the array with your Input
         //You need to write your Input path
-        readNums("C:\\Users\\berkay\\IdeaProjects\\HackerRank\\OrthogonalTriangleMaxSum\\src\\test2.txt");
+        readNums("C:\\Users\\berkay\\IdeaProjects\\OrthogonalTriangleMaxSum\\src\\test1.txt");
 
         //Print original array (Including Prime Numbers)
         System.out.println("\nThe original array : ");
