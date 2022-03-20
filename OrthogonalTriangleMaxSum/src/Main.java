@@ -20,7 +20,7 @@ public class Main {
         findMaxSum();
 
         //Print result
-        System.out.println("\nArray after max sum calculations: ");
+        System.out.println("\nArray after removing prime numbers : ");
         printArray();
         System.out.println("\n-------------- The max sum is " + pyramid[0][0] + " --------------");
     }
