@@ -95,9 +95,9 @@ public class Main {
     }
 
     private static void printArray() {
-        for (int r = 0; r < pyramid.length; r++) {
+        for (int[] ints : pyramid) {
             for (int c = 0; c < pyramid[0].length; c++) {
-                System.out.print(pyramid[r][c] + " ");
+                System.out.print(ints[c] + " ");
             }
             System.out.print("\n");
         }
