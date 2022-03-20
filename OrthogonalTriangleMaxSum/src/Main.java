@@ -69,10 +69,10 @@ public class Main {
 
     // Set all prime numbers in the array to 0
     private static void primesToZero() {
-        for (int r = 0; r < pyramid.length; r++) {
-            for (int c = 0; c < pyramid[0].length; c++) {
-                if (isPrime(pyramid[r][c])) {
-                    pyramid[r][c] = 0;
+        for (int i = 0; i < pyramid.length; i++) {
+            for (int j = 0; j < pyramid[0].length; j++) {
+                if (isPrime(pyramid[i][j])) {
+                    pyramid[i][j] = 0;
                 }
             }
         }
