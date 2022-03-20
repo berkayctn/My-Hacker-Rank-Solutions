@@ -19,7 +19,7 @@ public class Main {
         //Find max sum and store max in first position
         findMaxSum();
 
-        //print result
+        //Print result
         System.out.println("\nArray after max sum calculations: ");
         printArray();
         System.out.println("\n-------------- The max sum is " + pyramid[0][0] + " --------------");
